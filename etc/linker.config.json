@@ -1,0 +1,23 @@
+{
+	"provideLibs": [	
+		    "libdummy_binary_libprotobuf-c-nano-16bit.a-x86_64-v2.so",
+		    "libdummy_binary_libprotobuf-c-nano-16bit.a.so",
+		    "libdummy_binary_libprotobuf-c-nano-32bit.a-x86_64-v2.so",
+		    "libdummy_binary_libprotobuf-c-nano-32bit.a.so",
+		    "libdummy_binary_libprotobuf-c-nano-enable-malloc-16bit.a-x86_64-v2.so",
+		    "libdummy_binary_libprotobuf-c-nano-enable-malloc-16bit.a.so",
+		    "libdummy_binary_libprotobuf-c-nano-enable-malloc-32bit.a-x86_64-v2.so",
+		    "libdummy_binary_libprotobuf-c-nano-enable-malloc-32bit.a.so",
+		    "libdummy_binary_libprotobuf-c-nano-enable-malloc.a-x86_64-v2.so",
+		    "libdummy_binary_libprotobuf-c-nano-enable-malloc.a.so",
+		    "libdummy_binary_libprotobuf-c-nano.a-x86_64-v2.so",
+		    "libdummy_binary_libprotobuf-c-nano.a.so",
+		    "libdummy_ext_nanopb_c-x86_64-v2.so",
+		    "libdummy_ext_nanopb_c.so",
+		    "libdummy_headers_ext_nanopb_c-x86_64-v2.so",
+		    "libdummy_headers_ext_nanopb_c.so",
+		    "libdummy_shared_nanopb-c-x86_64-v2.so",
+		    "libdummy_shared_nanopb-c.so"
+	],
+	"visible": true
+}

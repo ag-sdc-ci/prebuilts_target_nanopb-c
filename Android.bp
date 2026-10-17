@@ -1,0 +1,74 @@
+// Auto-generated prebuilt APEX Blueprint for external/nanopb-c
+// Staged from Extractive APEX package: ext-nanopb-c (org.blisslabs.ag.ext.nanopb-c)
+
+package {
+    default_applicable_licenses: ["external_nanopb-c_license"],
+}
+
+license {
+    name: "external_nanopb-c_license",
+    visibility: [":__subpackages__"],
+    license_kinds: [
+        "SPDX-license-identifier-BSD",
+        "SPDX-license-identifier-MIT",
+        "SPDX-license-identifier-Zlib",
+        "legacy_unencumbered",
+    ],
+    license_text: [
+        "LICENSE.txt",
+        "NOTICE",
+    ],
+}
+
+cc_prebuilt_library_static {
+    name: "libprotobuf-c-nano",
+    srcs: ["lib/libprotobuf-c-nano.a"],
+    export_include_dirs: ["include", "."],
+    apex_available: [
+        "//apex_available:platform",
+        "com.android.btservices",
+    ],
+    min_sdk_version: "30",
+    vendor_available: true,
+    host_supported: true,
+}
+
+cc_prebuilt_library_static {
+    name: "libprotobuf-c-nano-enable_malloc",
+    srcs: ["lib/libprotobuf-c-nano-enable_malloc.a"],
+    export_include_dirs: ["include", "."],
+    vendor_available: true,
+    host_supported: true,
+}
+
+cc_prebuilt_library_static {
+    name: "libprotobuf-c-nano-16bit",
+    srcs: ["lib/libprotobuf-c-nano-16bit.a"],
+    export_include_dirs: ["include", "."],
+    vendor_available: true,
+    host_supported: true,
+}
+
+cc_prebuilt_library_static {
+    name: "libprotobuf-c-nano-enable_malloc-16bit",
+    srcs: ["lib/libprotobuf-c-nano-enable_malloc-16bit.a"],
+    export_include_dirs: ["include", "."],
+    vendor_available: true,
+    host_supported: true,
+}
+
+cc_prebuilt_library_static {
+    name: "libprotobuf-c-nano-32bit",
+    srcs: ["lib/libprotobuf-c-nano-32bit.a"],
+    export_include_dirs: ["include", "."],
+    vendor_available: true,
+    host_supported: true,
+}
+
+cc_prebuilt_library_static {
+    name: "libprotobuf-c-nano-enable_malloc-32bit",
+    srcs: ["lib/libprotobuf-c-nano-enable_malloc-32bit.a"],
+    export_include_dirs: ["include", "."],
+    vendor_available: true,
+    host_supported: true,
+}
